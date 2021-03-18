@@ -233,8 +233,8 @@ body {
   display: grid;
   align-items: center;
   justify-content: center;
-  grid-template-columns: 3.5rem 2rem 2rem 6rem;
-  grid-template-rows: 3.5rem repeat(5, 3.5rem);
+  grid-template-columns: 80px 50px 40px 130px;
+  grid-template-rows: repeat(6, 80px);
   grid-template-areas:
     "a a a a"
     "e j c o"
@@ -315,7 +315,7 @@ body {
 .bar {
   grid-area: c;
   height: 95%;
-  width: 2rem;
+  width: 45px;
   background: linear-gradient(
     to top,
     red,
